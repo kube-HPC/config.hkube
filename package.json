@@ -1,0 +1,28 @@
+{
+  "name": "config.rf",
+  "version": "1.0.0",
+  "description": "configuration managment for node",
+  "main": "index.js",
+  "dependencies": {
+    "deep-extend": "^0.4.2",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^3.5.3",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.1"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.rms:RMS-Common/config-it.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "Nassi Harel",
+  "license": "ISC"
+}
