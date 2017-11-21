@@ -1,5 +1,5 @@
 {
-  "name": "config.rf",
+  "name": "config.hkube",
   "version": "1.0.0",
   "description": "configuration managment for node",
   "main": "index.js",
