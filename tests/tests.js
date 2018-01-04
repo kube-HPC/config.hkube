@@ -30,23 +30,16 @@ describe('config-it', function () {
     });
 
     describe('config', function () {
-        it('should get config with base', function (done) {
-            configIt.load({
-                useBase: true,
-                configFolder: 'tests'
-            }).then(function (config) {
-                expect(config.main.serviceName).to.equal('config-it-test');
-                done();
-            });
+        it('should get config with base',  done => {
+          let config =  configIt.load({  useBase: true,configFolder: 'tests'});
+          expect(config.main.serviceName).to.equal('config-it-test');
+            done();
         });
-        it('sshould get config without base', function (done) {
-            configIt.load({
-                useBase: false,
-                configFolder: 'tests'
-            }).then(function (config) {
+        it('should get config without base', function (done) {
+            let config =  configIt.load({  useBase: false,configFolder: 'tests'});
                 expect(config.main.serviceName).to.not.equal('config-it-test');
                 done();
-            });
+        
         });
     });
 });
