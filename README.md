@@ -47,13 +47,11 @@ config.settings = {
 
 // config.<environment>.js file
 const config = module.exports = {};
-
 config.settings = {
     host: "127.0.0.1"
 };
 
 // the result will be:
-
 config.settings = {
     host: "127.0.0.1",
     port: 1500

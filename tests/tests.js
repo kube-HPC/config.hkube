@@ -11,7 +11,7 @@ describe('config-it', function () {
         });
         it('should get config without base', function (done) {
             const config = configIt.load({ useBase: false, configFolder: 'tests' });
-            expect(config.main.serviceName).to.not.equal('config-it-test');
+            expect(config.main.newServiceName).to.equal('new-config-it-test');
             done();
 
         });
