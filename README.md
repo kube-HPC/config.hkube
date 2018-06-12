@@ -1,3 +1,9 @@
+# config.hkube
+
+[![Build Status](https://travis-ci.org/kube-HPC/config.hkube.svg?branch=master)](https://travis-ci.org/kube-HPC/config.hkube)
+[![Coverage Status](https://coveralls.io/repos/github/kube-HPC/config.hkube/badge.svg?branch=master)](https://coveralls.io/github/kube-HPC/config.hkube?branch=master)
+
+
 ## Installation
 
     $ npm install ../config-it
