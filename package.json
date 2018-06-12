@@ -1,5 +1,5 @@
 {
-  "name": "config.hkube",
+  "name": "@hkube/config",
   "version": "2.0.2",
   "description": "configuration management for node",
   "main": "index.js",
