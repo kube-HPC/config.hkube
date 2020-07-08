@@ -4,8 +4,7 @@
   "description": "configuration management for node",
   "main": "index.js",
   "dependencies": {
-    "deep-extend": "^0.4.2",
-    "moment": "^2.22.2"
+    "lodash.merge": "^4.6.2"
   },
   "pre-commit": {
     "run": [
