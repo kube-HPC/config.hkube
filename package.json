@@ -1,6 +1,6 @@
 {
   "name": "@hkube/config",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "configuration management for nodejs",
   "main": "index.js",
   "dependencies": {
